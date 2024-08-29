@@ -38,3 +38,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## Packages Used
 
 - prettier-plugin-tailwindcss
+- shadcn-ui
