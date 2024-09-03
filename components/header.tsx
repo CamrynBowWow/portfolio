@@ -23,7 +23,9 @@ export default function Header() {
           </li>
         </ul>
 
-        <ThemeToggle />
+        <div className='flex h-4 w-auto items-center'>
+          <ThemeToggle />
+        </div>
       </nav>
     </header>
   )
