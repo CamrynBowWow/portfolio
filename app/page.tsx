@@ -1,12 +1,10 @@
-import ThemeToggle from '@/components/theme-toggle'
 import React from 'react'
 
 export default function Home() {
   return (
     <section className='py-24'>
-      <div className='container'>
+      <div className='container max-w-3xl'>
         <h1 className='text-5xl font-bold'>Portfolio</h1>
-        <ThemeToggle />
       </div>
     </section>
   )
