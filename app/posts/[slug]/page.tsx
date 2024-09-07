@@ -1,3 +1,4 @@
+import MDXContent from '@/components/mdx-content'
 import { getPostBySlug } from '@/lib/posts'
 import { formatDate } from '@/lib/utils'
 import { ArrowLeftIcon } from '@radix-ui/react-icons'
@@ -48,7 +49,7 @@ export default async function Post({ params }: { params: { slug: string } }) {
         </header>
 
         <main className='prose mt-16 dark:prose-invert'>
-          <MDXRemote source={content} />
+          <MDXContent source={content} />
         </main>
 
         <footer className='mt-16'>{/* <NewsletterForm /> */}</footer>

@@ -42,3 +42,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - next-mdx-remote
 - gray-matter
 - tailwind CSS Typography
+- sugar-high
