@@ -4,6 +4,8 @@ import { MDXRemote, MDXRemoteProps } from 'next-mdx-remote/rsc'
 
 import Counter from '@/components/counter'
 
+// So when making a component in the mdx file you need import it here for it compile
+
 function Code({ children, ...props }: any) {
   let codeHTML = highlight(children)
   return <code dangerouslySetInnerHTML={{ __html: codeHTML }} {...props} />
